@@ -9,18 +9,22 @@ body {
     margin: 0px;
 }
 
+/* header part */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #E5E7EB;
     padding: 10px 150px;
+    background: url("images/pagoda.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #1F2937;
-    font-weight: 700;
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: 900;
 }
 
 ul {
@@ -28,8 +32,11 @@ ul {
     gap: 20px;
     list-style: none;
     font-size: 18px;
-    color: #1F2937;
+    font-weight: 700;
+    color: #E5E7EB;
 }
+
+/* main part */ 
 
 .main {
     display: flex;
@@ -39,6 +46,8 @@ ul {
     padding: 10px 100px 100px;
     background-color: #962f3c;
     color: #F9FAF8;
+    background: url("images/pagoda.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -50,6 +59,7 @@ h1 {
 p {
     max-width: 400px;
     font-size: 18px;
+    font-weight: 700;
 }
 
 button {
@@ -72,6 +82,8 @@ button {
     display: flex;
     align-items: center;
 }
+
+/* info part */
 
 .info {
     display: flex;
@@ -118,13 +130,16 @@ button {
     object-fit: cover;
 }
 
+/* quote part */
+
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 120px 150px;
     background-color: #E5E7EB;
-    background-image: url("images/nebuta.jpg");
+    background: url("images/nebuta.jpg") no-repeat center center fixed;
+    background-size: cover;
     background-size: 100%;
 }
 
@@ -149,13 +164,7 @@ button {
     color: #E5E7EB;
 }
 
-.ad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    flex-shrink: 1;
-}
+/* ad part */
 
 .ad-content {
     display: flex;
@@ -186,6 +195,8 @@ h3 {
     margin-bottom: 40px;
     font-weight: 300;
 }
+
+/* footer part */ 
 
 .footer {
     background-color: #E5E7EB;
