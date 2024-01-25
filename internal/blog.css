@@ -99,14 +99,18 @@ body {
 .info, 
 .views {
   margin: 5px 10px;
+  font-size: 0.8rem;
 }
 
 .blogs h2 {
   font-size: 1.2rem;
+  margin-top: 0;
 }
 
 .blogs h3 {
   font-size: 1rem;
+  font-weight: 400;
+  color: darkslategrey;
 }
 
 /* .blogs>div>.description {
@@ -136,5 +140,7 @@ body {
 .author {
   display: flex;
   gap: 10px;
-  padding: 5px;
+  padding: 15px 10px;
+  align-items: center;
+  max-height: 40px;
 }
